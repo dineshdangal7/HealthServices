@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+    android:id="@+id/txtMName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Medicine Name"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:padding="8dp"
+    android:shadowColor="@color/black"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:letterSpacing="0.02"
+    android:fontFamily="sans-serif"
+    />
+
+    <TextView
+        android:id="@+id/txtMDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine Description"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:letterSpacing="0.02"
+        android:fontFamily="sans-serif"
+        />
+
+</LinearLayout>
